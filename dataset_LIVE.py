@@ -1,9 +1,12 @@
 """
+This code is only for LIVE 3D datasets.
 Load images/labels/disparity_images from an annotation file.
-This code is only for LIVE 3D dataset.
+Transform images/labels/disparity_images and then return in batch.
 
 The list file is like:
     left_img.bmp left_dis_img.mat right_img.bmp right_dis_img.mat label
+
+Author: Huilin Zhang (Fanning)
 """
 
 
