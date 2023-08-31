@@ -53,3 +53,7 @@ If you find this repo helpful, please cite our paper:
       primaryClass={cs.CV}
 }
 ```
+
+
+## Find more
+For more SIQA models implemented in PyTorch, please visit our repo [SIQA-models-PyTorch-lib](https://github.com/Fanning-Zhang/SIQA-models-PyTorch-lib).
