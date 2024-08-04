@@ -31,16 +31,14 @@ class PreProcessDataset(data.Dataset):
     one class PreProcessDataset is enough,
     it is fine to call this class for both TrainDataset and TestDataset.
     """
-    def __init__(self, root_src, list_file, train, transform_l, transform_r):
+    def __init__(self, root_src, list_file, transform_l, transform_r):
         """
         Args:
           root_src: (str) directory to .txt file.
           list_file: (str) path to index file.
-          train: (boolean) train or test.
           transform: ([transforms]) image transforms.
         """
         self.root_src = root_src
-        self.train = train
         self.transform_l = transform_l
         self.transform_r = transform_r
 
