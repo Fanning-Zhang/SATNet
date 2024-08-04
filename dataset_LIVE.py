@@ -34,7 +34,7 @@ class PreProcessDataset(data.Dataset):
     def __init__(self, root_src, list_file, train, transform_l, transform_r):
         """
         Args:
-          root_src: (str) directory to .txt.
+          root_src: (str) directory to .txt file.
           list_file: (str) path to index file.
           train: (boolean) train or test.
           transform: ([transforms]) image transforms.
